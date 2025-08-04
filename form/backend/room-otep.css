@@ -1,0 +1,744 @@
+.tooltip-container {
+    position: relative;
+}
+
+.tooltip-room {
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #333;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    white-space: nowrap;
+    font-size: 35px !important;
+    font-weight: bold;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.2s;
+    z-index: 1590;
+    line-height: 2;
+    text-align: left;
+    pointer-events: none;
+}
+
+.room-block:hover .tooltip-room {
+    visibility: visible;
+    opacity: 1;
+}
+
+.room-number {
+    margin-top: 50px;
+}
+
+.room-otep-01 {
+    left: 74px;
+    top: 84px;
+    width: 194px;
+    height: 180px;
+}
+
+.room-otep-02 {
+    left: 74px;
+    top: 321px;
+    width: 194px;
+    height: 180px;
+}
+
+.room-otep-03 {
+    left: 290px;
+    top: 84px;
+    width: 92px;
+    height: 180px;
+}
+
+.room-otep-04 {
+    left: 290px;
+    top: 321px;
+    width: 92px;
+    height: 180px;
+}
+
+.room-otep-05 {
+    left: 403px;
+    top: 84px;
+    width: 92px;
+    height: 180px;
+}
+
+.room-otep-06 {
+    left: 403px;
+    top: 321px;
+    width: 92px;
+    height: 180px;
+}
+
+.room-otep-07 {
+    left: 516px;
+    top: 84px;
+    width: 92px;
+    height: 180px;
+}
+
+.room-otep-08 {
+    left: 516px;
+    top: 321px;
+    width: 92px;
+    height: 180px;
+}
+
+.room-otep-09 {
+    left: 630px;
+    top: 84px;
+    width: 92px;
+    height: 180px;
+}
+
+.room-otep-10 {
+    left: 630px;
+    top: 321px;
+    width: 92px;
+    height: 180px;
+}
+
+.room-otep-11 {
+    left: 743px;
+    top: 84px;
+    width: 92px;
+    height: 180px;
+}
+
+.room-otep-12 {
+    left: 743px;
+    top: 321px;
+    width: 92px;
+    height: 180px;
+}
+
+.room-otep-13 {
+    left: 856px;
+    top: 84px;
+    width: 92px;
+    height: 180px;
+}
+
+.room-otep-14 {
+    left: 856px;
+    top: 321px;
+    width: 92px;
+    height: 180px;
+}
+
+.room-otep-15 {
+    left: 1074px;
+    top: 84px;
+    width: 92px;
+    height: 180px;
+}
+
+.room-otep-16 {
+    left: 1187px;
+    top: 321px;
+    width: 92px;
+    height: 180px;
+}
+
+.room-otep-17 {
+    left: 1187px;
+    top: 84px;
+    width: 92px;
+    height: 180px;
+}
+
+.room-otep-18 {
+    left: 1300px;
+    top: 321px;
+    width: 92px;
+    height: 180px;
+}
+
+.room-otep-19 {
+    left: 1300px;
+    top: 84px;
+    width: 92px;
+    height: 180px;
+}
+
+.room-otep-20 {
+    left: 1413px;
+    top: 321px;
+    width: 92px;
+    height: 180px;
+}
+
+.room-otep-21 {
+    left: 1413px;
+    top: 84px;
+    width: 92px;
+    height: 180px;
+}
+
+.room-otep-22 {
+    left: 1526px;
+    top: 321px;
+    width: 92px;
+    height: 180px;
+}
+
+.room-otep-23 {
+    left: 1526px;
+    top: 84px;
+    width: 92px;
+    height: 180px;
+}
+
+.room-otep-24 {
+    left: 1639px;
+    top: 321px;
+    width: 92px;
+    height: 180px;
+}
+
+.room-otep-25 {
+    left: 1639px;
+    top: 84px;
+    width: 92px;
+    height: 180px;
+}
+
+.room-otep-26 {
+    left: 1752px;
+    top: 321px;
+    width: 92px;
+    height: 180px;
+}
+
+.room-otep-27 {
+    left: 1752px;
+    top: 84px;
+    width: 92px;
+    height: 180px;
+}
+
+.room-otep-28 {
+    left: 1865px;
+    top: 321px;
+    width: 92px;
+    height: 180px;
+}
+
+.room-otep-29 {
+    left: 1865px;
+    top: 84px;
+    width: 92px;
+    height: 180px;
+}
+
+.room-otep-30 {
+    left: 1978px;
+    top: 321px;
+    width: 92px;
+    height: 180px;
+}
+
+.room-otep-31 {
+    left: 1978px;
+    top: 84px;
+    width: 92px;
+    height: 180px;
+}
+
+.room-otep-32 {
+    left: 2091px;
+    top: 321px;
+    width: 92px;
+    height: 180px;
+}
+
+.room-otep-33 {
+    left: 2091px;
+    top: 84px;
+    width: 92px;
+    height: 180px;
+}
+
+.room-otep-34 {
+    left: 2204px;
+    top: 321px;
+    width: 92px;
+    height: 180px;
+}
+
+.room-otep-35 {
+    left: 2204px;
+    top: 84px;
+    width: 92px;
+    height: 180px;
+}
+
+.room-otep-36 {
+    left: 2317px;
+    top: 321px;
+    width: 92px;
+    height: 180px;
+}
+
+.room-otep-37 {
+    left: 2317px;
+    top: 84px;
+    width: 92px;
+    height: 180px;
+}
+
+.room-otep-38 {
+    left: 2430px;
+    top: 321px;
+    width: 92px;
+    height: 180px;
+}
+
+.room-otep-39 {
+    left: 2430px;
+    top: 84px;
+    width: 92px;
+    height: 180px;
+}
+
+.room-otep-40 {
+    left: 2543px;
+    top: 321px;
+    width: 92px;
+    height: 180px;
+}
+
+.room-otep {
+    transform-origin: 0 0;
+}
+
+.bg-room {
+    width: 2705px;
+    height: 600px;
+    background: url("img/layout.jpg") no-repeat center;
+}
+
+.building {
+    width: 2705px;
+    height: 280px;
+    margin: auto;
+    position: relative;
+    transform: scale(0.4);
+}
+
+.tag_green {
+    position: absolute;
+    border: solid #008000 10px;
+    text-align: center;
+    font-size: 36px;
+    color: #ffffff;
+    background: #008000;
+}
+
+.tag_green:hover {
+    border: solid #000000 10px;
+    color: #ffffff;
+    background: #006400;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.tag_green span {
+    vertical-align: middle;
+}
+
+.tag_orange {
+    position: absolute;
+    border: solid #FFA500 10px;
+    text-align: center;
+    font-size: 36px;
+    color: #ffffff;
+    background: #FFA500;
+}
+
+.tag_orange:hover {
+    border: solid #000000 10px;
+    color: #ffffff;
+    background: #FF8C00;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.tag_orange span {
+    vertical-align: middle;
+}
+
+.tag_yellow {
+    position: absolute;
+    border: solid #FFD700 10px;
+    text-align: center;
+    font-size: 36px;
+    color: #ffffff;
+    background: #FFD700;
+}
+
+.tag_yellow:hover {
+    border: solid #000000 10px;
+    color: #ffffff;
+    background: #c2a606;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.tag_yellow span {
+    vertical-align: middle;
+}
+
+.tag_blue {
+    position: absolute;
+    border: solid #3da5ec 10px;
+    text-align: center;
+    font-size: 36px;
+    color: #ffffff;
+    background: #3da5ec;
+}
+
+.tag_blue:hover {
+    border: solid #000000 10px;
+    color: #ffffff;
+    background: #3da5ec;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.tag_blue span {
+    vertical-align: middle;
+}
+
+.tag_brown {
+    position: absolute;
+    border: solid #8B4513 10px;
+    text-align: center;
+    font-size: 36px;
+    color: #ffffff;
+    background: #8B4513;
+}
+
+.tag_brown:hover {
+    border: solid #000000 10px;
+    color: #ffffff;
+    background: #8B4513;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.tag_brown span {
+    vertical-align: middle;
+}
+
+.tag_red {
+    position: absolute;
+    border: solid #FF0000 10px;
+    text-align: center;
+    font-size: 36px;
+    color: #ffffff;
+    background: #FF0000;
+}
+
+.tag_red:hover {
+    border: solid #000000 10px;
+    color: #ffffff;
+    background: #D30000;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.tag_red-repair {
+    position: absolute;
+    border: solid #c02231 10px;
+    text-align: center;
+    font-size: 36px;
+    color: #ffffff;
+    background: #c02231;
+}
+
+.tag_red-repair:hover {
+    border: solid #000000 10px;
+    color: #ffffff;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.tag_pink {
+    position: absolute;
+    border: solid rgb(255, 0, 221) 10px;
+    text-align: center;
+    font-size: 36px;
+    color: #ffffff;
+    background: rgb(255, 0, 221);
+}
+
+.tag_pink:hover {
+    border: solid #000000 10px;
+    color: #ffffff;
+    background: rgb(193, 12, 169);
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+
+.tag_red span {
+    vertical-align: middle;
+}
+
+.color-box {
+    float: left;
+    width: 10px;
+    height: 10px;
+    margin: 5px;
+    border: 1px solid rgba(0, 0, 0, .2);
+}
+
+span.dropt span {
+    position: absolute;
+    left: -9999px;
+    margin: 0px 0 0 0px;
+    padding: 3px 3px 3px 3px;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    z-index: 6;
+}
+
+span.dropt:hover span {
+    left: 2%;
+    background: #ffffff;
+}
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+    #layout {
+        transform: scale(0.281);
+        transform-origin: 0 0;
+        height: 180px;
+    }
+
+    iframe {
+        height: 180px;
+    }
+}
+
+@media only screen and (min-device-width: 800px) and (max-device-width: 1024px) {
+    #layout {
+        transform: scale(0.257);
+        transform-origin: 0 0;
+        height: 160px;
+    }
+
+    iframe {
+        height: 160px;
+    }
+}
+
+@media screen and (min-device-width: 1024px) and (max-device-width: 1280px) {
+    #layout {
+        transform: scale(0.363);
+        transform-origin: 0 0;
+        height: 220px;
+    }
+
+    iframe {
+        height: 380px;
+    }
+}
+
+@media screen and (min-device-width: 1280px) and (max-device-width: 1360px) {
+    #layout {
+        transform: scale(0.363);
+        transform-origin: 0 0;
+        height: 220px;
+    }
+
+    iframe {
+        height: 380px;
+    }
+}
+
+@media screen and (min-device-width: 1360px) and (max-device-width: 1366px) {
+    #layout {
+        transform: scale(0.462);
+        transform-origin: 0 0;
+        height: 380px;
+    }
+
+    iframe {
+        height: 380px;
+    }
+}
+
+@media screen and (min-device-width: 1366px) and (max-device-width: 1600px) {
+    #layout {
+        transform: scale(0.458);
+        transform-origin: 0 0;
+        height: 280px;
+    }
+
+    iframe {
+        height: 480px;
+    }
+}
+
+@media screen and (min-device-width: 1600px) and (max-device-width: 1680px) {
+    #layout {
+        transform: scale(0.5);
+        transform-origin: 0 0;
+        height: 480px;
+    }
+
+    iframe {
+        height: 480px;
+    }
+}
+
+@media screen and (min-device-width: 1680px) and (max-device-width: 1768px) {
+    #layout {
+        transform: scale(0.5);
+        transform-origin: 0 0;
+        height: 480px;
+    }
+
+    iframe {
+        height: 480px;
+    }
+}
+
+@media screen and (min-device-width: 1768px) and (max-device-width: 1920px) {
+    #layout {
+        transform: scale(0.5);
+        transform-origin: 0 0;
+        height: 480px;
+    }
+
+    iframe {
+        height: 480px;
+    }
+}
+
+@media screen and (min-device-width: 1920px) and (max-device-width: 2048px) {
+    #layout {
+        transform: scale(0.5);
+        transform-origin: 0 0;
+        height: 480px;
+    }
+
+    iframe {
+        height: 480px;
+    }
+}
+
+@media screen and (min-device-width: 2048px) and (max-device-width: 2560px) {
+    #layout {
+        transform: scale(0.847);
+        transform-origin: 0 0;
+        height: 860px;
+    }
+
+    iframe {
+        height: 860px;
+    }
+}
+
+@media screen and (min-device-width: 2560px) and (max-device-width: 3840px) {
+    #layout {
+        transform: scale(0.847);
+        transform-origin: 0 0;
+        height: 860px;
+    }
+
+    iframe {
+        height: 860px;
+    }
+}
+
+
+/*ส่วนนี้สำหรับปรับ แม่บ้าน และช่าง */
+.grid-container {
+    display: grid;
+    gap: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.grid-item {
+    /* background-color: #007BFF;
+    color: white;*/
+    padding: 20px;
+    text-align: center;
+    border-radius: 5px;
+    height: 6rem;
+    color: #000000;
+}
+
+/* Default layout for desktop */
+@media (min-width: 768px) {
+    .grid-container {
+        grid-template-columns: repeat(10, 1fr);
+        grid-template-rows: repeat(4, auto);
+    }
+}
+
+/* Layout for mobile */
+@media (max-width: 767px) {
+    .grid-container {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(20, auto);
+    }
+}
+
+/* จบสำหรับปรับ แม่บ้าน และช่าง */
+
+
+/*สถานะสีห้องพัก*/
+.green {
+    background: #008000;
+}
+
+.orange {
+    background: #ff7700;
+}
+
+.yellow {
+    background: #FFFF00;
+}
+
+.blue {
+    background: #3da5ec;
+}
+
+.brown {
+    background: #8B4513;
+}
+
+.red {
+    background: #FF0000;
+}
+
+.red-repair {
+    background: #c02231;
+}
+
+.pink {
+    background: #FF8FAB;
+}
+
+.dropdown-item2 {
+    display: block;
+    width: 100%;
+    padding: 0.25rem 1.5rem;
+    clear: both;
+    font-weight: 400;
+    color: #212529;
+    text-align: inherit;
+    white-space: nowrap;
+    background-color: #999;
+    border: 0;
+}
